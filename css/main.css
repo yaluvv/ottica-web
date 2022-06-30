@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+@import url(../css/normalize.css);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 16px 32px;
+  background: #505a5b;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e8ebe4;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.info-block {
+  max-width: 476px;
+  margin-top: 69px;
+}
+.google-maps-item {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+}
+.info-sub-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-feature-settings: "liga" off;
+  color: #505a5b;
+  margin-bottom: 16px;
+}
+
+.info-title {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 73px;
+  font-feature-settings: "liga" off;
+  color: #505a5b;
+  margin-bottom: 32px;
+}
+
+.info-desc {
+  font-size: 24px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: #333333;
+}
+
+/* HEADER */
+.header {
+  padding: 16px 0 16px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #eff1ed;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 64px;
+  flex-wrap: wrap;
+}
+.nav-items {
+  display: flex;
+  column-gap: 64px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #505a5b;
+}
+.nav-link.active {
+  color: #d36060;
+  text-decoration: underline;
+}
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+/* HERO */
+
+.hero {
+  background: url(../img/hero/bg.jpg) no-repeat top 30% left 30% / cover;
+  min-height: 931px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hero-info {
+  margin-top: 190px;
+}
+.hero-title {
+  text-align: left;
+  max-width: 507px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 156px;
+  letter-spacing: 0.02em;
+  font-feature-settings: "ordn" on, "liga" off;
+  color: #eff1ed;
+  margin-bottom: 59px;
+}
+.hero-desc {
+  text-align: left;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 52px;
+  color: #eff1ed;
+}
+
+/* STORY */
+.story {
+  padding: 132px 0 120px 0;
+}
+
+.story-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 119px;
+}
+
+.story-img {
+  max-width: 476px;
+}
+.story-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* PARTNERS SECTION */
+.partners {
+  padding: 80px 0 80px 0;
+  background: #505a5b;
+}
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 120px;
+}
+
+.partners-info-items {
+  display: flex;
+  column-gap: 119px;
+  flex-wrap: wrap;
+}
+
+.partners-img {
+  max-width: 575px;
+  border-radius: 10px;
+}
+
+.partners-img img {
+  width: 100%;
+}
+
+.partners-sub-title {
+  color: #e8ebe4;
+}
+.partners-title {
+  color: #eff1ed;
+}
+.partners-desc {
+  color: #e8ebe4;
+}
+
+.partners-group-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #eff1ed;
+  margin-bottom: 40px;
+}
+.partners-items {
+  display: flex;
+  column-gap: 80px;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners-items img {
+  opacity: 0.8;
+}
+
+/* VISIT */
+.visit {
+  padding: 120px 0 120px 0;
+}
+.visit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visit-btn {
+  margin-top: 40px;
+}
+
+.visit-image {
+  width: 100%;
+}
+
+.visit-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.visit-info {
+  max-width: 575px;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 80px 0 40px 0;
+  background-color: #505a5b;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 76px;
+}
+.footer-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
+
+.footer-items {
+  list-style: none;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.footer-item-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+}
+.footer-item-link:hover {
+  opacity: 0.8;
+}
+.footer-nav span {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+  margin-bottom: 16px;
+}
+.footer-city {
+  margin-top: 20px;
+}
+.footer-address {
+  margin-top: 20px;
+}
+.footer-city span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+  margin-bottom: 16px;
+}
+
+.footer-city-item {
+  font-size: 16px;
+  line-height: 21px;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+}
+.footer-city-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.footer-address span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+  margin-bottom: 16px;
+}
+.footer-address address {
+  font-size: 16px;
+  line-height: 21px;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+  margin-bottom: 16px;
+}
+
+.footer-autor p {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+}
+
+.footer-autor p a {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #e8ebe4;
+}
+
+.nav-burger {
+  max-width: 50px;
+  border: none;
+  display: none;
+}
+.nav-burger-img {
+  width: 100%;
+}
