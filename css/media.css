@@ -58,6 +58,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    z-index: 1;
   }
   .nav.open .nav-btn {
     z-index: 2;
