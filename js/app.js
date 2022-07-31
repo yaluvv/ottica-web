@@ -10,6 +10,8 @@ navMenu.onclick = () => {
         body.classList.add('scroll-hidden')
     } else {
         navMenuImage.src = './icons/burger-open.svg'
+        body.classList.remove('scroll-hidden')
+
     }
 }
 
