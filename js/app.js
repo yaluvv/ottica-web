@@ -16,6 +16,7 @@ navMenu.onclick = () => {
 navLinks.forEach(n => n.addEventListener('click', () => {
     nav.classList.remove('open')
     navMenuImage.src = './icons/burger-open.svg'
+    body.classList.remove('scroll-hidden')
 }))
 
 
